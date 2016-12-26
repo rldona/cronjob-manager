@@ -9,9 +9,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-
 let cm = new crontabManager(db.projects());
-
 
 console.log('Serer start at port 3000');
 
